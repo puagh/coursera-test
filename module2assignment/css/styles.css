@@ -25,6 +25,11 @@ h1{
 	float: left;
 }
 
+.subtitle{
+	font-size: 20px;
+	background-color: red;
+}
+
 div#container{
 	position: relative;
 }
