@@ -16,8 +16,7 @@ h1{
 }
 
 .square{
-	margin-right: auto;
-  	margin-left: auto;
+	padding: 0;
   	margin-right: auto;
   	margin-left: auto;
 	border: 2px solid black;
@@ -28,6 +27,8 @@ h1{
 .subtitle{
 	font-size: 20px;
 	background-color: red;
+	float: right;
+	text-align: center;
 }
 
 div#container{
@@ -36,6 +37,7 @@ div#container{
 
 .description{
 	text-align: justify;
+	clear: right;
 }
 
 p{
