@@ -29,6 +29,9 @@ h1{
 	background-color: red;
 	float: right;
 	text-align: center;
+	width: 180px;
+	border: 2px solid black;
+	margin: -2px;
 }
 
 div#container{
