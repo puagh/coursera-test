@@ -26,12 +26,24 @@ h1{
 
 .subtitle{
 	font-size: 20px;
-	background-color: red;
 	float: right;
 	text-align: center;
 	width: 180px;
 	border: 2px solid black;
 	margin: -2px;
+}
+
+.chicken_sub{
+	background-color: #DD96B1;
+}
+
+.beef_sub{
+	background-color: #AB0A20;
+	color: white;
+}
+
+.sushi_sub{
+	background-color: #F3F182;
 }
 
 div#container{
@@ -40,7 +52,7 @@ div#container{
 
 .description{
 	text-align: justify;
-	clear: right;
+	clear: both;
 }
 
 p{
