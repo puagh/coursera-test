@@ -96,7 +96,7 @@ body {
 	margin-bottom: 35px;
 }
 
-#hours, #address > span{
+#hours > span, #address > span{
 	font-size: 1.3em;
 }
 
