@@ -1,13 +1,13 @@
 body{
 	font-family: 'Ruda', sans-serif;
-	color: #FFEEE0;
+	color: #EFEDDF;
 	background-color: #53AEB0;
 	font-size: 16px;
 }
 
 /**********************************HEADER***********************************/
 #header-nav{
-	background-color: #4D70A8;
+	background-color: #2F4F4F;
   	border-radius: 0;
   	border: 0;
 }
@@ -17,14 +17,14 @@ body{
 }
 
 .navbar-brand h1 { /* Name of the company */
-  color: #FFEEE0;
+  color: #FFF;
   font-size: 2.0em;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
   line-height: 1.5;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -41,8 +41,30 @@ body{
 
 /********************************MAIN CONTENT*****************************/
 
-#main-content .row >section{			/****** Pointing each section*/
+
+#main-content .row >section{			/****** Pointing all sections*******/
 	font-size: 30px;
+	color: #4D4D4C;
+	text-align: justify;
+	background-color: #D2DCCB;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 5px 20px 20px 20px; /* TOP LEFT BOTTOM RIGHT */ 
+}
+
+#main-content-title h2{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#main-content .row section >h3{
+	font-size: 30px;
+}
+
+#main-content .row section >p{
+	font-size: 12px;
+	font-weight: lighter;
 }
 
 
@@ -50,15 +72,15 @@ body{
 @media (max-width: 767px) {
 
 	#nav-list a {
-	background-color: #95C7A6;
-  	color: #FFEEE0;
+	background-color: #4E3F35;	/*#95C7A6*/
+  	color: #FFEEE0;				
   	text-align: center;
-  	border: 1px solid #FFFACD;
+  	border: 1px solid #D1CBBA; 	/*#FFFACD*/
 	}
 
 	#nav-list a:hover {
-  		background: #CEDEAD;
-  		color: #53AEB0;
+  		background: #EF7247;	/*#CEDEAD*/
+  		color: #2F4F4F;			/*#53AEB0*/
 	}
 }
 
