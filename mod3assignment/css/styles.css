@@ -5,16 +5,12 @@ body{
 	font-size: 16px;
 }
 
-/*******************HEADER***************************/
+/**********************************HEADER***********************************/
 #header-nav{
 	background-color: #4D70A8;
   	border-radius: 0;
   	border: 0;
 }
-
-/*.navbar{
-	margin-bottom: 0;
-}*/
 
 .navbar-brand {
   padding: 0;
@@ -24,7 +20,6 @@ body{
   color: #FFEEE0;
   font-size: 2.0em;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #CEDEAD;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
@@ -36,17 +31,20 @@ body{
   text-decoration: none;
 }
 
-.navbar-toggle{
-	/*margin: 20px 20px 20px 20px;*/
-}
-
 .navbar-nav{
 	margin-top: 0;
 }
 
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
+
+/********************************MAIN CONTENT*****************************/
+
+#main-content .row >section{			/****** Pointing each section*/
+	font-size: 30px;
+}
+
 
 
 @media (max-width: 767px) {
@@ -57,7 +55,6 @@ body{
   	text-align: center;
   	border: 1px solid #FFFACD;
 	}
-
 
 	#nav-list a:hover {
   		background: #CEDEAD;
